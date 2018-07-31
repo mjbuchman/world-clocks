@@ -7,16 +7,22 @@ body{
     position: relative;
 }
 
-img{
+#clock-background{
     position: absolute;
     top: 0;
     left: 0;
     z-index: -1;
 }
 
+#plaque{
+    position: absolute;
+    padding: 180px 0 0 10px;
+
+}
+
 #clock{
     position: absolute;
-    top: 0%;
+    top: 0;
     left: 0;
 }
 
