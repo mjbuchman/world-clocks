@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>World Clocks</title>
+    <link rel="stylesheet" href="style.css" type="text/css" media="all">
+    <script src="script.js" defer></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <img src="resources/clock.png" alt="Clock" width="300"></img>
+                <svg id="clock" xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 600 600">
+                    <g id="hour">
+                        <path class="hour-arm" d="M300.5 298V142"/>
+                    </g>
+                    <g id="minute">
+                        <path class="minute-arm" d="M300.5 298V67"/>
+                    </g>
+                    <g id="second">
+                        <path class="second-arm" d="M300.5 350V55"/>
+                    </g>
+                </svg>
+            </div><!-- .col -->
+        </div><!-- .row -->
+    </div>
+</body>
+
+</html>

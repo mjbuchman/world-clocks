@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    background-image: url("resources/drywall.png");
+}
+
+.col{
+    position: relative;
+}
+
+img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+#clock{
+    position: absolute;
+    top: 0%;
+    left: 0;
+}
+
+.hour-arm {
+    fill: none;
+    stroke: #000;
+    stroke-width: 17;
+    stroke-miterlimit: 10;
+}
+
+.minute-arm {
+    fill: none;
+    stroke: #000;
+    stroke-width: 11;
+    stroke-miterlimit: 10;
+}
+
+.second-arm {
+    fill: none;
+    stroke: #000;
+    stroke-width: 4;
+    stroke-miterlimit: 10;
+}
+
+/* Make all arms rotate around the same center point. */
+#hour,
+#minute,
+#second {
+    transform-origin: 300px 300px;
+    transition: transform .5s ease-in-out;
+}
