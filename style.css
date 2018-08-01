@@ -1,29 +1,44 @@
+/*Typography */
+p{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    color: #5A3D23;
+
+}
+/*General*/
+
 body{
     margin: 0;
     background-image: url("resources/drywall.png");
 }
 
-.col{
+.col-lg-2{
     position: relative;
+    padding: 30px 0 30px 0;
+    border: 5px solid black;
+    height: 400px;
+    text-align: center;
 }
 
 #clock-background{
-    position: absolute;
-    top: 0;
-    left: 0;
+    position: relative;
+    top: 15%;
     z-index: -1;
 }
 
-#plaque{
-    position: absolute;
-    padding: 180px 0 0 10px;
-
+#clock{
+    position: relative;
+    top: 0%;
 }
 
-#clock{
-    position: absolute;
-    top: 0;
-    left: 0;
+#plaque{
+    position: relative;
+    margin-top: 100px;
+}
+
+p{
+    position: relative;
+    top: -10%;
 }
 
 .hour-arm {
