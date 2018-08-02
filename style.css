@@ -106,6 +106,7 @@ body{
     margin-top: 35.4%;
     top: 0;
     left: 60%;
+    transition: all 1.5s cubic-bezier(0.370, 1.620, 0.630, 1.410);
 }
 
 #red-bird{
@@ -113,6 +114,7 @@ body{
     margin-top: 38.1%;
     top: 0;
     left: 52%;
+    transition: all 1.5s cubic-bezier(0.370, 1.620, 0.630, 1.410);
 }
 
 #blue-bird{
@@ -120,9 +122,23 @@ body{
     margin-top: 37.9%;
     top: 0;
     left: 41.6%;
+    transition: all 1.5s cubic-bezier(0.370, 1.620, 0.630, 1.410);
 }
 
 #footer{
     float: left;
     position: relative;
+}
+
+/* Bird Animations */
+#brown-bird:hover{
+    transform: translate(0,-20px);
+}
+
+#red-bird:hover{
+    transform: translate(0,-20px);
+}
+
+#blue-bird:hover{
+    transform: translate(0,-20px);
 }
