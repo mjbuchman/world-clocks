@@ -1,7 +1,13 @@
 /*--------------------------------------------------------------
 Typography
 --------------------------------------------------------------*/
-p{
+#small{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: #5A3D23;
+}
+
+#large{
     font-family: 'Lato', sans-serif;
     font-size: 24px;
     color: #5A3D23;
@@ -54,9 +60,14 @@ body{
 
 }
 
-p{
+#small{
     position: relative;
-    top: 24px;
+    top: 26px;
+}
+
+#large{
+    position: relative;
+    top: 23px;
 }
 
 /* Format svg clock arms */
