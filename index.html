@@ -1,97 +1,333 @@
-/*--------------------------------------------------------------
-Typography
---------------------------------------------------------------*/
-p{
-    font-family: 'Lato', sans-serif;
-    font-size: 24px;
-    color: #5A3D23;
+<!DOCTYPE html>
+<html lang="en-US">
 
-}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>World Clocks</title>
+    <link rel="stylesheet" href="style.css" type="text/css" media="all">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <script src="script.js" defer></script>
 
-#footer{
-    font-family: 'Lato', sans-serif;
-    font-size: 12px;
-    color: #5A3D23;
-}
-/*--------------------------------------------------------------
-General Layout
---------------------------------------------------------------*/
-body{
-    margin: 0;
-    background-image: url("resources/drywall.png");
-}
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
 
-.col-xs-12,
-.col-sm-4,
-.col-md-3,
-.col-lg-2{
-    padding: 30px 0 30px 0;
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12 col-sm-4 col-md-3 col-lg-2">
+                <div class="clock-wrapper">
+                    <img id="clock-background" src="resources/clock.png" alt="Clock" width="170">
+                    <img id="plaque" src="resources/plaque.png" alt="Clock" width="170">
+                    <p>CHICAGO</p>
+                    <svg id="clock" xmlns="http://www.w3.org/2000/svg" width="170" height="170" viewBox="0 0 600 600">
+                        <g id="hour">
+                            <path class="hour-arm" d="M300.5 298V142"/>
+                        </g>
+                        <g id="minute">
+                            <path class="minute-arm" d="M300.5 298V67"/>
+                        </g>
+                        <g id="second">
+                            <path class="second-arm" d="M300.5 350V55"/>
+                        </g>
+                    </svg>
+                </div><!-- .clock-wrapper-->
+            </div><!-- .col -->
+            <div class="col-xs-12 col-sm-4 col-md-3 col-lg-2">
+                <div class="clock-wrapper">
+                    <img id="clock-background" src="resources/clock.png" alt="Clock" width="170">
+                    <img id="plaque" src="resources/plaque.png" alt="Clock" width="170">
+                    <p>CHICAGO</p>
+                    <svg id="clock" xmlns="http://www.w3.org/2000/svg" width="170" height="170" viewBox="0 0 600 600">
+                        <g id="hour">
+                            <path class="hour-arm" d="M300.5 298V142"/>
+                        </g>
+                        <g id="minute">
+                            <path class="minute-arm" d="M300.5 298V67"/>
+                        </g>
+                        <g id="second">
+                            <path class="second-arm" d="M300.5 350V55"/>
+                        </g>
+                    </svg>
+                </div><!-- .clock-wrapper-->
+            </div><!-- .col -->
+            <div class="col-xs-12 col-sm-4 col-md-3 col-lg-2">
+                <div class="clock-wrapper">
+                    <img id="clock-background" src="resources/clock.png" alt="Clock" width="170">
+                    <img id="plaque" src="resources/plaque.png" alt="Clock" width="170">
+                    <p>CHICAGO</p>
+                    <svg id="clock" xmlns="http://www.w3.org/2000/svg" width="170" height="170" viewBox="0 0 600 600">
+                        <g id="hour">
+                            <path class="hour-arm" d="M300.5 298V142"/>
+                        </g>
+                        <g id="minute">
+                            <path class="minute-arm" d="M300.5 298V67"/>
+                        </g>
+                        <g id="second">
+                            <path class="second-arm" d="M300.5 350V55"/>
+                        </g>
+                    </svg>
+                </div><!-- .clock-wrapper-->
+            </div><!-- .col -->
+            <div class="col-xs-12 col-sm-4 col-md-3 col-lg-2">
+                <div class="clock-wrapper">
+                    <img id="clock-background" src="resources/clock.png" alt="Clock" width="170">
+                    <img id="plaque" src="resources/plaque.png" alt="Clock" width="170">
+                    <p>CHICAGO</p>
+                    <svg id="clock" xmlns="http://www.w3.org/2000/svg" width="170" height="170" viewBox="0 0 600 600">
+                        <g id="hour">
+                            <path class="hour-arm" d="M300.5 298V142"/>
+                        </g>
+                        <g id="minute">
+                            <path class="minute-arm" d="M300.5 298V67"/>
+                        </g>
+                        <g id="second">
+                            <path class="second-arm" d="M300.5 350V55"/>
+                        </g>
+                    </svg>
+                </div><!-- .clock-wrapper-->
+            </div><!-- .col -->
+            <div class="col-xs-12 col-sm-4 col-md-3 col-lg-2">
+                <div class="clock-wrapper">
+                    <img id="clock-background" src="resources/clock.png" alt="Clock" width="170">
+                    <img id="plaque" src="resources/plaque.png" alt="Clock" width="170">
+                    <p>CHICAGO</p>
+                    <svg id="clock" xmlns="http://www.w3.org/2000/svg" width="170" height="170" viewBox="0 0 600 600">
+                        <g id="hour">
+                            <path class="hour-arm" d="M300.5 298V142"/>
+                        </g>
+                        <g id="minute">
+                            <path class="minute-arm" d="M300.5 298V67"/>
+                        </g>
+                        <g id="second">
+                            <path class="second-arm" d="M300.5 350V55"/>
+                        </g>
+                    </svg>
+                </div><!-- .clock-wrapper-->
+            </div><!-- .col -->
+            <div class="col-xs-12 col-sm-4 col-md-3 col-lg-2">
+                <div class="clock-wrapper">
+                    <img id="clock-background" src="resources/clock.png" alt="Clock" width="170">
+                    <img id="plaque" src="resources/plaque.png" alt="Clock" width="170">
+                    <p>CHICAGO</p>
+                    <svg id="clock" xmlns="http://www.w3.org/2000/svg" width="170" height="170" viewBox="0 0 600 600">
+                        <g id="hour">
+                            <path class="hour-arm" d="M300.5 298V142"/>
+                        </g>
+                        <g id="minute">
+                            <path class="minute-arm" d="M300.5 298V67"/>
+                        </g>
+                        <g id="second">
+                            <path class="second-arm" d="M300.5 350V55"/>
+                        </g>
+                    </svg>
+                </div><!-- .clock-wrapper-->
+            </div><!-- .col -->
+        </div><!-- .row -->
+        <div class="row">
+            <div class="col-xs-12 col-sm-4 col-md-3 col-lg-2">
+                <div class="clock-wrapper">
+                    <img id="clock-background" src="resources/clock.png" alt="Clock" width="170">
+                    <img id="plaque" src="resources/plaque.png" alt="Clock" width="170">
+                    <p>CHICAGO</p>
+                    <svg id="clock" xmlns="http://www.w3.org/2000/svg" width="170" height="170" viewBox="0 0 600 600">
+                        <g id="hour">
+                            <path class="hour-arm" d="M300.5 298V142"/>
+                        </g>
+                        <g id="minute">
+                            <path class="minute-arm" d="M300.5 298V67"/>
+                        </g>
+                        <g id="second">
+                            <path class="second-arm" d="M300.5 350V55"/>
+                        </g>
+                    </svg>
+                </div><!-- .clock-wrapper-->
+            </div><!-- .col -->
+            <div class="col-xs-12 col-sm-4 col-md-3 col-lg-2">
+                <div class="clock-wrapper">
+                    <img id="clock-background" src="resources/clock.png" alt="Clock" width="170">
+                    <img id="plaque" src="resources/plaque.png" alt="Clock" width="170">
+                    <p>CHICAGO</p>
+                    <svg id="clock" xmlns="http://www.w3.org/2000/svg" width="170" height="170" viewBox="0 0 600 600">
+                        <g id="hour">
+                            <path class="hour-arm" d="M300.5 298V142"/>
+                        </g>
+                        <g id="minute">
+                            <path class="minute-arm" d="M300.5 298V67"/>
+                        </g>
+                        <g id="second">
+                            <path class="second-arm" d="M300.5 350V55"/>
+                        </g>
+                    </svg>
+                </div><!-- .clock-wrapper-->
+            </div><!-- .col -->
+            <div class="col-xs-12 col-sm-4 col-md-3 col-lg-2">
+                <div class="clock-wrapper">
+                    <img id="clock-background" src="resources/clock.png" alt="Clock" width="170">
+                    <img id="plaque" src="resources/plaque.png" alt="Clock" width="170">
+                    <p>CHICAGO</p>
+                    <svg id="clock" xmlns="http://www.w3.org/2000/svg" width="170" height="170" viewBox="0 0 600 600">
+                        <g id="hour">
+                            <path class="hour-arm" d="M300.5 298V142"/>
+                        </g>
+                        <g id="minute">
+                            <path class="minute-arm" d="M300.5 298V67"/>
+                        </g>
+                        <g id="second">
+                            <path class="second-arm" d="M300.5 350V55"/>
+                        </g>
+                    </svg>
+                </div><!-- .clock-wrapper-->
+            </div><!-- .col -->
+            <div class="col-xs-12 col-sm-4 col-md-3 col-lg-2">
+                <div class="clock-wrapper">
+                    <img id="clock-background" src="resources/clock.png" alt="Clock" width="170">
+                    <img id="plaque" src="resources/plaque.png" alt="Clock" width="170">
+                    <p>CHICAGO</p>
+                    <svg id="clock" xmlns="http://www.w3.org/2000/svg" width="170" height="170" viewBox="0 0 600 600">
+                        <g id="hour">
+                            <path class="hour-arm" d="M300.5 298V142"/>
+                        </g>
+                        <g id="minute">
+                            <path class="minute-arm" d="M300.5 298V67"/>
+                        </g>
+                        <g id="second">
+                            <path class="second-arm" d="M300.5 350V55"/>
+                        </g>
+                    </svg>
+                </div><!-- .clock-wrapper-->
+            </div><!-- .col -->
+            <div class="col-xs-12 col-sm-4 col-md-3 col-lg-2">
+                <div class="clock-wrapper">
+                    <img id="clock-background" src="resources/clock.png" alt="Clock" width="170">
+                    <img id="plaque" src="resources/plaque.png" alt="Clock" width="170">
+                    <p>CHICAGO</p>
+                    <svg id="clock" xmlns="http://www.w3.org/2000/svg" width="170" height="170" viewBox="0 0 600 600">
+                        <g id="hour">
+                            <path class="hour-arm" d="M300.5 298V142"/>
+                        </g>
+                        <g id="minute">
+                            <path class="minute-arm" d="M300.5 298V67"/>
+                        </g>
+                        <g id="second">
+                            <path class="second-arm" d="M300.5 350V55"/>
+                        </g>
+                    </svg>
+                </div><!-- .clock-wrapper-->
+            </div><!-- .col -->
+            <div class="col-xs-12 col-sm-4 col-md-3 col-lg-2">
+                <div class="clock-wrapper">
+                    <img id="clock-background" src="resources/clock.png" alt="Clock" width="170">
+                    <img id="plaque" src="resources/plaque.png" alt="Clock" width="170">
+                    <p>CHICAGO</p>
+                    <svg id="clock" xmlns="http://www.w3.org/2000/svg" width="170" height="170" viewBox="0 0 600 600">
+                        <g id="hour">
+                            <path class="hour-arm" d="M300.5 298V142"/>
+                        </g>
+                        <g id="minute">
+                            <path class="minute-arm" d="M300.5 298V67"/>
+                        </g>
+                        <g id="second">
+                            <path class="second-arm" d="M300.5 350V55"/>
+                        </g>
+                    </svg>
+                </div><!-- .clock-wrapper-->
+            </div><!-- .col -->
+        </div><!-- .row -->
+        <div class="row">
+            <div class="col-xs-12 col-sm-4 col-md-3 col-lg-2">
+                <div class="clock-wrapper">
+                    <img id="clock-background" src="resources/clock.png" alt="Clock" width="170">
+                    <img id="plaque" src="resources/plaque.png" alt="Clock" width="170">
+                    <p>CHICAGO</p>
+                    <svg id="clock" xmlns="http://www.w3.org/2000/svg" width="170" height="170" viewBox="0 0 600 600">
+                        <g id="hour">
+                            <path class="hour-arm" d="M300.5 298V142"/>
+                        </g>
+                        <g id="minute">
+                            <path class="minute-arm" d="M300.5 298V67"/>
+                        </g>
+                        <g id="second">
+                            <path class="second-arm" d="M300.5 350V55"/>
+                        </g>
+                    </svg>
+                </div><!-- .clock-wrapper-->
+            </div><!-- .col -->
+            <div class="col-xs-12 col-sm-4 col-md-3 col-lg-2">
+                <div class="clock-wrapper">
+                    <img id="clock-background" src="resources/clock.png" alt="Clock" width="170">
+                    <img id="plaque" src="resources/plaque.png" alt="Clock" width="170">
+                    <p>CHICAGO</p>
+                    <svg id="clock" xmlns="http://www.w3.org/2000/svg" width="170" height="170" viewBox="0 0 600 600">
+                        <g id="hour">
+                            <path class="hour-arm" d="M300.5 298V142"/>
+                        </g>
+                        <g id="minute">
+                            <path class="minute-arm" d="M300.5 298V67"/>
+                        </g>
+                        <g id="second">
+                            <path class="second-arm" d="M300.5 350V55"/>
+                        </g>
+                    </svg>
+                </div><!-- .clock-wrapper-->
+            </div><!-- .col -->
+            <div class="col-xs-12 col-sm-4 col-md-3 col-lg-2">
+                <div class="clock-wrapper">
+                    <img id="clock-background" src="resources/clock.png" alt="Clock" width="170">
+                    <img id="plaque" src="resources/plaque.png" alt="Clock" width="170">
+                    <p>CHICAGO</p>
+                    <svg id="clock" xmlns="http://www.w3.org/2000/svg" width="170" height="170" viewBox="0 0 600 600">
+                        <g id="hour">
+                            <path class="hour-arm" d="M300.5 298V142"/>
+                        </g>
+                        <g id="minute">
+                            <path class="minute-arm" d="M300.5 298V67"/>
+                        </g>
+                        <g id="second">
+                            <path class="second-arm" d="M300.5 350V55"/>
+                        </g>
+                    </svg>
+                </div><!-- .clock-wrapper-->
+            </div><!-- .col -->
+            <div class="col-xs-12 col-sm-4 col-md-3 col-lg-2">
+                <div class="clock-wrapper">
+                    <img id="clock-background" src="resources/clock.png" alt="Clock" width="170">
+                    <img id="plaque" src="resources/plaque.png" alt="Clock" width="170">
+                    <p>CHICAGO</p>
+                    <svg id="clock" xmlns="http://www.w3.org/2000/svg" width="170" height="170" viewBox="0 0 600 600">
+                        <g id="hour">
+                            <path class="hour-arm" d="M300.5 298V142"/>
+                        </g>
+                        <g id="minute">
+                            <path class="minute-arm" d="M300.5 298V67"/>
+                        </g>
+                        <g id="second">
+                            <path class="second-arm" d="M300.5 350V55"/>
+                        </g>
+                    </svg>
+                </div><!-- .clock-wrapper-->
+            </div><!-- .col -->
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+                <div class="clock-wrapper">
+                    <img id="media-window" src="resources/window.png" alt="Clock" width="490">
+                    <img id="brown-bird" src="resources/brownbird.png" alt="Clock" width="90">
+                    <img id="red-bird" src="resources/redbird.png" alt="Clock" width="50">
+                    <img id="blue-bird" src="resources/bluebird.png" alt="Clock" width="70">
+                </div><!-- .clock-wrapper-->
+            </div><!-- .col -->
+        </div><!-- .row -->
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <p id="footer">© 2018 Michael Buchman<br>
+			All Rights Reserved</p>
+            </div><!-- .col -->
+        </div><!-- .row -->
+    </div>
+</body>
 
-}
-
-.clock-wrapper{
-    position: relative;
-    height: 300px;
-    text-align: center;
-
-}
-
-#clock-background{
-    position: relative;
-    top: 0px;
-    z-index: -1;
-}
-
-#clock{
-    position: relative;
-    top: -254px;
-
-}
-
-#plaque{
-    position: relative;
-    top: 60px;
-
-}
-
-p{
-    position: relative;
-    top: 24px;
-}
-
-/* Format svg clock arms */
-.hour-arm {
-    fill: none;
-    stroke: #000;
-    stroke-width: 17;
-    stroke-miterlimit: 10;
-}
-
-.minute-arm {
-    fill: none;
-    stroke: #000;
-    stroke-width: 11;
-    stroke-miterlimit: 10;
-}
-
-.second-arm {
-    fill: none;
-    stroke: #000;
-    stroke-width: 4;
-    stroke-miterlimit: 10;
-}
-
-/* Window social media graphic formatting */
-#brown-bird{
-    position: relative;
-    top: 43px;
-    left: -210px;
-}
-
-/* Make all arms rotate around the same center point. */
-#hour,
-#minute,
-#second {
-    transform-origin: 300px 300px;
-    transition: transform .5s ease-in-out;
-}
+</html>
