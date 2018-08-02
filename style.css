@@ -5,13 +5,13 @@ p{
     font-family: 'Lato', sans-serif;
     font-size: 24px;
     color: #5A3D23;
-
 }
 
 #footer{
     font-family: 'Lato', sans-serif;
     font-size: 12px;
     color: #5A3D23;
+    text-align: left;
 }
 /*--------------------------------------------------------------
 General Layout
@@ -19,6 +19,7 @@ General Layout
 body{
     margin: 0;
     background-image: url("resources/drywall.png");
+    max-width: 2200px;
 }
 
 .col-xs-12,
@@ -26,10 +27,9 @@ body{
 .col-md-3,
 .col-lg-2{
     padding: 30px 0 30px 0;
-
 }
 
-.clock-wrapper{
+.box-wrapper{
     position: relative;
     height: 300px;
     text-align: center;
@@ -81,17 +81,37 @@ p{
     stroke-miterlimit: 10;
 }
 
-/* Window social media graphic formatting */
-#brown-bird{
-    position: relative;
-    top: 43px;
-    left: -210px;
-}
-
 /* Make all arms rotate around the same center point. */
 #hour,
 #minute,
 #second {
     transform-origin: 300px 300px;
     transition: transform .5s ease-in-out;
+}
+
+/* Window social media graphic formatting */
+#brown-bird{
+    position: absolute;
+    margin-top: 35.4%;
+    top: 0;
+    left: 60%;
+}
+
+#red-bird{
+    position: absolute;
+    margin-top: 38.1%;
+    top: 0;
+    left: 52%;
+}
+
+#blue-bird{
+    position: absolute;
+    margin-top: 37.9%;
+    top: 0;
+    left: 41.6%;
+}
+
+#footer{
+    float: left;
+    position: relative;
 }
