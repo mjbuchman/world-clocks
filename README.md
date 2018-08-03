@@ -10,3 +10,4 @@ Clone the [repository](https://github.com/mjbuchman/world-clocks) and run the in
 
 ## Resources Used
 ### Fonts:
+- https://fonts.googleapis.com/css?family=Lato
