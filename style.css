@@ -48,10 +48,14 @@ body{
     z-index: -1;
 }
 
-#clock{
+#clock-l{
     position: relative;
     top: -254px;
+}
 
+#clock-s{
+    position: relative;
+    top: -248px;
 }
 
 #plaque{
