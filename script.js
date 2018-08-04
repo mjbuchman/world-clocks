@@ -7,8 +7,8 @@ for(i = 0; i < hourhand.length; i++){
 }
 
 function operateClock(index) {
-    var offset = 0;
-    var date = new Date(new Date().getTime() + offset * 3600 * 1000);
+    var offset = [8, 8, 12, 13, 7, 7, 7, 0, -1, -2, 7, 15, 0, 8, 7, 10, 1, 7, 2, 14, 14, 1, -2, 7];
+    var date = new Date(new Date().getTime() + offset[index] * 3600 * 1000);
 
     let hr = date.getHours();
     let min = date.getMinutes();
