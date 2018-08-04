@@ -19,6 +19,7 @@ Typography
     color: #5A3D23;
     text-align: left;
 }
+
 /*--------------------------------------------------------------
 General Layout
 --------------------------------------------------------------*/
@@ -39,7 +40,6 @@ body{
     position: relative;
     height: 300px;
     text-align: center;
-
 }
 
 #clock-background{
@@ -48,6 +48,7 @@ body{
     z-index: -1;
 }
 
+/* Position clock arms differently based on font size */
 #clock-l{
     position: relative;
     top: -254px;
@@ -61,7 +62,6 @@ body{
 #plaque{
     position: relative;
     top: 60px;
-
 }
 
 #small{
