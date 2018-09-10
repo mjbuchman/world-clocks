@@ -4,7 +4,7 @@
 A simple page displaying analog clocks of different locations around the world.
 
 ## How to Use
-Clone the [repository](https://github.com/mjbuchman/world-clocks) and run the index.html file.
+Clone the [repository](https://github.com/mjbuchman/world-clocks) and run the index.html file. Otherwise, click [here](http://worldclocks.atwebpages.com/) to view in browser.
 
 ## Features
 - Bootstrap responsive design
